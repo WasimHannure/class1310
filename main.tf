@@ -106,7 +106,7 @@ resource "aws_instance" "private_instance" {
   key_name      = "newkey"
 
   tags = {
-    Name = "test-private-instance"
+    Name = "private-instance"
   }
 }
     
